@@ -58,6 +58,7 @@ jobs:
         include_passed: true
 
   delivery:
+    needs: integration
     runs-on: ubuntu-latest
     permissions:
       contents: read
