@@ -13,7 +13,7 @@ WORKDIR /workspace
 # Copy the project files into the container at /workspace
 COPY requirements.txt \
      main.py \
-     test.py \
+     main_test.py \
      data.json .
 
 # Install the requirements
